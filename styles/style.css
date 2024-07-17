@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar a{
+    text-decoration: none;
+
+}
+.navbar li{
+    list-style: none;
+    margin: 20px;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
