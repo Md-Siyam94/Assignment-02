@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body{
     font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.brand{
+    color: rgb(241, 85, 58);
 }
 .navbar ul{
     display: flex;
+    /* padding: 1px;    */
+    height: 45px;
+    align-items: center;
+   border: 1px solid rgb(139, 135, 135);
+   border-radius: 50px 50px;
+    width: auto;
+    /* background: tomato; */
+
 
 }
 .navbar a{
@@ -13,9 +27,236 @@ body{
 .navbar li{
     list-style: none;
     margin: 20px;
+    color: rgb(229, 236, 243);
 }
-#head{
+/* .navbar span{
+    width: 70px;
+    background:rgb(241, 85, 58);
+} */
+.hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px 0px 140px;
+    
+    /* height: 770px; */
+}
+#head{
+    background: linear-gradient( 180.00deg ,rgb(17, 17, 17) ,rgb(119, 119, 119, 0) 100%);
+    
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #585a5a;
+    /* opacity: 0.; */
+
+
+}
+
+.text{
+    height: 460px;
+    width: 50%;
+    border: 1px solid black;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: 700;
+    /* margin: 30px auto; */
+
+
+}
+.hero-font{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 10px 200px 0px 140px;
+}
+.bg-img{
+    
+}
+.btn{
+    height: 36px;
+    width: 190px;
+    border-radius: 50px 50px;
+    margin: 5px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fffefe;
+    
+
+}
+#orange-btn{
+    background:  rgb(241, 85, 58);
+}
+
+main{
+    background: #020303;
+}
+#second-sec{
+    height: auto;
+    width: 80%;
+    border: 1px solid black;
+    
+    margin: 60px auto;
+    
+}
+#second-sec h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fffefe;
+    text-align: center;
+}
+#p-text{
+    text-align: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 70px auto;
+    text-align: center;
+    
+}
+
+ .image img{
+    border-radius: 100%;
+    border: 3px solid rgb(129, 128, 128);
+    
+}
+.image h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fffefe;
+}
+
+.mile-easily{
+    height: auto;
+    /* width: 94%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+
+    background: rgba(170, 167, 167, 0.247);
+    
+    
+    
+}
+.info{
+    height: 300px;
+    width: 400px;
+    margin: 0px 0px 0px 60px;
+    
+}
+.info h1{
+    font-size: 45px;
+    font-weight: 800;
+    color:  #fffefe;
+    margin: 0px ;
+}
+.info .btn{
+    margin: 30px 0px;
+}
+.pic img{
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px 30px;
+    
+}
+.bmi-text{
+    height: 150px;
+    width: 68%;
+    margin: 90px 100px 0px 200px ;
+
+}
+.bmi-text h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #fffefe;
+    margin: 0;
+
+}
+#third-sec{
+    width: 100%;
+    
+    background: #6160607a;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fill{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.calculator{
+    width: 300px;
+}
+#input{
+    height: 50px;
+    width: 300px;
+    margin-left: 0;
+}
+.fill-up2{
+    grid-area: span 2;
+}
+
+@media screen and (max-width:576px) {
+    body
+    {
+        align-items: center;
+        width: 100%;
+    }
+    .hero-font
+    {
+        flex-direction: column;
+
+    }
+
+    .text
+    {
+        /* width: 90%; */
+        
+        height: auto;
+        /* font-size: auto; */
+    }
+   
+    .navbar
+    {
+        display: none;
+    }
+    #second-sec
+    {
+        height: auto;
+    }
+    .images
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .mile-easily{
+        flex-direction: column;
+        /* text-align: center; */
+    }
+    .info{
+        text-align: center;
+        margin: auto;
+    }
+    .bmi-text{
+        margin:30px auto;
+        width: 90%;
+    }
+    #third-sec{
+        flex-direction: column;
+    }
+    .calculator{
+        width: 90%;
+    }
+
+
 }
