@@ -42,8 +42,8 @@ body{
     /* height: 770px; */
 }
 #head{
-    background: linear-gradient( 180.00deg ,rgb(17, 17, 17) ,rgb(119, 119, 119, 0) 100%);
-    
+    background: linear-gradient( 180.00deg ,rgb(17, 17, 17) ,rgb(119, 119, 119, 0) 100%),
+                linear-gradient(360deg, rgba(17, 17, 17, 1) 0%, rgba(119, 119, 119, 0) 100%); 
 }
 p{
     font-size: 16px;
@@ -206,6 +206,51 @@ main{
 .fill-up2{
     grid-area: span 2;
 }
+
+
+
+#fourth-sec{
+
+    height: 940px;
+    width: 90%;
+
+}
+#fourth-sec h1{
+    color: #fffefe;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin: 80px 0px 20px 180px;
+    
+}
+#fourth-sec p{
+    text-align: center;
+    margin:0px 0px 60px 180px;
+    
+}
+
+
+
+.our-team{
+    height: 600px;
+    width: 91%;
+    background: #52535380;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin: 50px 90px;
+}
+.team-membars{
+    height: 280px;
+    width: 340px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+
 
 @media screen and (max-width:576px) {
     body
