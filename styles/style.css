@@ -2,306 +2,455 @@
 body{
     font-family: "Inter", sans-serif;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
+
 .brand{
     color: rgb(241, 85, 58);
 }
+
 .navbar ul{
     display: flex;
-    /* padding: 1px;    */
     height: 45px;
     align-items: center;
-   border: 1px solid rgb(139, 135, 135);
-   border-radius: 50px 50px;
+    border: 1px solid rgb(139, 135, 135);
+    border-radius: 50px 50px;
     width: auto;
-    /* background: tomato; */
-
-
 }
-.navbar a{
+
+/* .navbar span{
+    height: 43px;
+    width: 100px;
+    background: rgb(241, 85, 58);
+    border-radius: 10px;
+} */
+
+a{
     text-decoration: none;
-
 }
+
+li{
+    list-style: none;
+}
+
 .navbar li{
     list-style: none;
     margin: 20px;
     color: rgb(229, 236, 243);
 }
-/* .navbar span{
-    width: 70px;
-    background:rgb(241, 85, 58);
-} */
+
 .hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px 0px 140px;
-    
-    /* height: 770px; */
+    height: auto;
 }
+
 #head{
     background: linear-gradient( 180.00deg ,rgb(17, 17, 17) ,rgb(119, 119, 119, 0) 100%),
                 linear-gradient(360deg, rgba(17, 17, 17, 1) 0%, rgba(119, 119, 119, 0) 100%); 
 }
+
 p{
-    font-size: 16px;
-    font-weight: 600;
-    color: #585a5a;
-    /* opacity: 0.; */
+    font-size: 15.5px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.5px;
+}
 
-
+h1{
+    color: rgb(255, 255, 255);
 }
 
 .text{
-    height: 460px;
-    width: 50%;
-    border: 1px solid black;
+    /* height: auto; */
+    width: 52%;
 }
+
 .text h1{
     font-size: 60px;
     font-weight: 700;
-    /* margin: 30px auto; */
-
-
 }
+
 .hero-font{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    margin: 10px 200px 0px 140px;
+    margin: 10px 190px 0px 140px;
 }
-.bg-img{
-    
+
+.hero-font .background{
+    background-image: url("/B10A2-versatile-ui-main/images/Images\ 2.png");
+   height: 580px;
+   width: 350px;
 }
+
 .btn{
-    height: 36px;
-    width: 190px;
+    height: 38px;
+    width: 170px;
     border-radius: 50px 50px;
     margin: 5px;
     border: 0;
     font-size: 16px;
     font-weight: 600;
-    color: #fffefe;
-    
-
+    color: rgb(255, 255, 255);
 }
+
+#download{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+
 #orange-btn{
     background:  rgb(241, 85, 58);
 }
 
-main{
-    background: #020303;
+.sticker{
+    height: 90px;
+    width: 175px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    margin: 150px 250px;
 }
+
+.sticker h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0px;
+    margin-top: 15px;   
+}
+
+.sticker p{
+    margin: 0px;
+}
+
+#second-sticker{
+    margin-left: -90px;
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+    gap: 10px;
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;   
+}
+
+main{
+    background: #020303;  
+}
+
 #second-sec{
     height: auto;
     width: 80%;
-    border: 1px solid black;
-    
-    margin: 60px auto;
+    margin: 0px auto;
     
 }
 #second-sec h2{
     font-size: 40px;
     font-weight: 700;
-    color: #fffefe;
+    color: rgb(255, 255, 255);
     text-align: center;
+    padding-top: 60px;
 }
+
 #p-text{
     text-align: center;
 }
+
 .images{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 70px auto;
     text-align: center;
-    
 }
 
  .image img{
     border-radius: 100%;
-    border: 3px solid rgb(129, 128, 128);
-    
+    border: 3px solid rgb(129, 128, 128); 
 }
+
 .image h3{
     font-size: 20px;
     font-weight: 600;
-    color: #fffefe;
+    color: rgb(255, 255, 255);
 }
 
 .mile-easily{
     height: auto;
-    /* width: 94%; */
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
     border-radius: 20px;
-    
-
     background: rgba(170, 167, 167, 0.247);
-    
-    
-    
 }
+
 .info{
     height: 300px;
     width: 400px;
-    margin: 0px 0px 0px 60px;
-    
+    margin: 0px 0px 0px 60px;  
 }
+
 .info h1{
     font-size: 45px;
     font-weight: 800;
-    color:  #fffefe;
+    color: rgb(255, 255, 255);
     margin: 0px ;
 }
+
 .info .btn{
     margin: 30px 0px;
 }
+
 .pic img{
     width: 350px;
     height: auto;
     border-radius: 20px;
-    margin: 30px 30px;
-    
+    margin: 30px 30px;   
 }
+
 .bmi-text{
     height: 150px;
     width: 68%;
     margin: 90px 100px 0px 200px ;
-
 }
+
 .bmi-text h1{
     font-size: 3em;
     font-weight: 700;
-    color: #fffefe;
+    color: rgb(255, 255, 255);
     margin: 0;
-
 }
+
 #third-sec{
     width: 100%;
-    
     background: #6160607a;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
+
+.chart{
+    margin-left: 140px;
+}
+
 .fill{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 15px;
+}
 
-}
-.calculator{
-    width: 300px;
-}
-#input{
-    height: 50px;
-    width: 300px;
-    margin-left: 0;
-}
 .fill-up2{
     grid-area: span 2;
 }
 
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 400px;
+    height: 45px;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
 
+ #third-sec .math{
+    width: 540px;
+    margin-right: 140px ;
+}
+
+#input{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); 
+}
+
+input::placeholder{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+select{
+    
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.math .btn{
+    margin: 30px 5px;
+}
 
 #fourth-sec{
-
-    height: 940px;
+    background: #000;
     width: 90%;
-
 }
+
 #fourth-sec h1{
-    color: #fffefe;
+    color: rgb(255, 255, 255);
     font-size: 45px;
     font-weight: 800;
     text-align: center;
     margin: 80px 0px 20px 180px;
-    
 }
+
 #fourth-sec p{
-    text-align: center;
-    margin:0px 0px 60px 180px;
-    
+    text-align: center; 
 }
-
-
 
 .our-team{
     height: 600px;
     width: 91%;
     background: #52535380;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 30px;
-    border-radius: 20px;
-    margin: 50px 90px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+    margin: 60px 90px 60px 90px;
 }
-.team-membars{
+
+#membars{
     height: 280px;
     width: 340px;
-    object-fit: cover;
-    margin: 10px;
-    border-radius: 20px;
-
+    border-radius: 16px;
 }
 
+#membars h3{
+    color: rgb(255, 255, 255) ;
+    font-weight: 700;
+    font-size: 22px;
+   margin: 210px 0px 0px 20px;
+}
+
+#membars p{
+    margin: 0px 20px;
+   text-align: left;
+}
+
+.membars-1{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer1.png);
+    background-size: cover;   
+}
+
+.membars-2{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer2.png);
+    background-size: cover;
+}
+
+.membars-3{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer3.png);
+    background-size: cover;
+}
+
+.membars-4{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer4.png); 
+    background-size: cover; 
+}
+
+.membars-5{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer5.png);
+    background-size: cover;
+}
+
+.membars-6{
+    background-image: url(/B10A2-versatile-ui-main/images/trainer6.png);
+    background-size: cover;
+}
+
+#sixth-sec{
+    width: 100%;
+    background: #070707e1;  
+}
+
+.footer{
+    width: 75%; 
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    align-items: center;
+    padding-top: 40px;
+    margin: 60px auto;
+    gap: 50px;
+}
+
+.type-1{
+    width: 450px;
+}
+
+.type-1 h1{
+    color: rgb(241, 85, 58);
+    font-size: 3em;
+    font-weight: 800; 
+}
+
+#our-service h2{
+    color: rgb(255, 255, 255);
+}
+
+#our-service ul li a {
+   
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#our-service ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.line{
+     width: 75%;
+     border: 2px solid #52535380;
+     margin: 45px auto;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 
 @media screen and (max-width:576px) {
-    body
-    {
-        align-items: center;
+    
+    body{
         width: 100%;
+        align-items: center;
+        
+
+        
+        
     }
-    .hero-font
+    .hero-font,
+    .mile-easily
     {
         flex-direction: column;
-
-    }
-
-    .text
-    {
-        /* width: 90%; */
+        margin: 0px;
         
-        height: auto;
-        /* font-size: auto; */
     }
-   
-    .navbar
-    {
+    .text{
+        flex-direction: row;
+    }
+    .navbar{
         display: none;
     }
-    #second-sec
-    {
-        height: auto;
-    }
-    .images
-    {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .mile-easily{
-        flex-direction: column;
-        /* text-align: center; */
-    }
-    .info{
-        text-align: center;
+    .hero{
         margin: auto;
     }
-    .bmi-text{
-        margin:30px auto;
-        width: 90%;
+    .brand{
+        margin: 50px 20px;
     }
-    #third-sec{
-        flex-direction: column;
+    .images{
+        grid-template-columns: repeat(1 ,1fr);
     }
-    .calculator{
-        width: 90%;
-    }
-
-
 }
