@@ -85,7 +85,7 @@ h1{
 }
 
 .hero-font .background{
-    background-image: url("/B10A2-versatile-ui-main/images/Images\ 2.png");
+    background-image: url(".//B10A2-versatile-ui-main/images/Images\ 2.png");
    height: 580px;
    width: 350px;
 }
@@ -346,32 +346,32 @@ select{
 }
 
 .membars-1{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer1.png);
+    background-image: url(.//B10A2-versatile-ui-main/images/trainer1.png);
     background-size: cover;   
 }
 
 .membars-2{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer2.png);
+    background-image: url(.//B10A2-versatile-ui-main/images/trainer2.png);
     background-size: cover;
 }
 
 .membars-3{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer3.png);
+    background-image: url(.//B10A2-versatile-ui-main/images/trainer3.png);
     background-size: cover;
 }
 
 .membars-4{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer4.png); 
+    background-image: url(.//B10A2-versatile-ui-main/images/trainer4.png); 
     background-size: cover; 
 }
 
 .membars-5{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer5.png);
+    background-image: url(.//B10A2-versatile-ui-main/images/trainer5.png);
     background-size: cover;
 }
 
 .membars-6{
-    background-image: url(/B10A2-versatile-ui-main/images/trainer6.png);
+    background-image: url(.//B10A2-versatile-ui-main/images/trainer6.png);
     background-size: cover;
 }
 
@@ -465,6 +465,7 @@ select{
     }
     .background{
         margin: auto;
+        width: 70%;
     }
     .sticker{
         margin: 40px 0px 0px 190px;
@@ -535,7 +536,7 @@ select{
         gap:20px;
     }
     .type-1{
-        width: 70%;
+        width: 80%;
     }
 
 }
